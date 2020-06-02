@@ -23,6 +23,10 @@ export default function Home() {
     setIsResultsFiltered(true)
   }
 
+  const handleBlur = () => {
+    setFilteredResults([]);
+  }
+
   return (
     <>
       <header className="mainPageHero">
@@ -44,6 +48,7 @@ export default function Home() {
               <form className="Searchbar">
                 <input type='text'
                   onChange={handleFiltering}
+                  onBlur={handleBlur}
                   className='form-control input-Searchbar'
                   placeholder={'Rest Easy... ' + searchPhrase}
                 />
