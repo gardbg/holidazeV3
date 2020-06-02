@@ -1,0 +1,14 @@
+.error {
+    color: $error;
+
+    &__border {
+        border: solid 1 px $error;
+    }
+
+    &__hide {
+        display: block;
+        color: $white;
+        background: transparent;
+        transition: 0.4s all ease;
+    }
+}

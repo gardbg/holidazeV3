@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+header.mainPageHero {
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(
+    rgba(10, 0, 0, 0.45), 
+    rgba(40, 0, 0, 0.45)
+  ), url("https://images.pexels.com/photos/1464044/pexels-photo-1464044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;            
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height:100vh;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: -15px;
+}
+
+.Searchbar  {
+    .input-Searchbar{
+      height: 70px;
+    }  
+}
+
+.column__holidaze-frontpage {
+  margin-top: 120px;
+}
+
+.row-searchbar {
+  max-height: 300px;
+  overflow-y: scroll;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar { 
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $grey;
+}
+
+.typehead-dropdown {
+    background-color: $white;
+    padding: 5px;
+    display: block;
+      .typehead-dropdown__menu {
+        text-decoration: none;
+        color: $black;
+      } 
+        &:hover {
+          text-decoration: underline;
+        }
+}
+
+@media only screen and (max-width: 600px) {
+    ::-webkit-scrollbar-thumb {
+      display: none;
+    }
+
+}
+
+
+

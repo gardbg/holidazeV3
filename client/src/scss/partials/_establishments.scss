@@ -1,0 +1,49 @@
+.establishmentsPageHero {
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(
+      rgba(10, 0, 0, 0.45), 
+      rgba(10, 0, 0, 0.45)
+    ), url("https://images.pexels.com/photos/3601453/pexels-photo-3601453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;            
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 35vh;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+.btn-establishments {
+    padding: 10px;
+    background-color: $main-blue;
+    color: $white;
+    width: 50%;
+        &:hover {
+            opacity: 0.9;
+            color: $main-blue;
+            background-color: $white;
+            transition: 0.3s all ease;
+            border: 2px solid black;
+    }
+}
+
+.row__estb {
+    padding: 20px;
+}
+
+.underText__estb {
+    opacity: 0.8;
+    color: $undertext;
+}
+
+.icons__estb {
+    margin-top: 150px;
+    img{
+        margin: 10px;
+    }
+}
+
+.card-img {
+    width: 100%;
+    height: 250px;
+}

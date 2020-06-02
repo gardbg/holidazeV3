@@ -1,0 +1,81 @@
+.input--contact {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid $main-blue;
+}
+
+.btn-contact {
+    width: 50% !important;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: $main-blue;
+    color: $white;
+    border-radius: 4px;
+        &:hover {
+            opacity: 0.9;
+            color: $main-blue;
+            background-color: $white;
+            transition: 0.3s all ease;
+            border: 2px solid $black;
+        }
+}
+
+.row--contact {
+    label {
+        font-family: 'Arvo', serif;
+    }
+img {
+    margin-top: 10px;
+    margin-top: 20px;
+}
+}
+
+.label--contact {
+    margin-top: 10px;
+    text-align: left !important;
+    font-size: 22px;
+}
+
+.column--contact {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 20px;
+    display: block;
+}
+
+.span-contact {
+    color: $error;
+}
+
+
+.contactPageHero {
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(
+    rgba(10, 0, 0, 0.45), 
+    rgba(10, 0, 0, 0.45)
+  ), url("https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;            
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 35vh;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.hr-main {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: $main-blue;
+}
+
+.hr-header {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: $white;
+}
+
+.column__contact-info {
+    margin-bottom: 120px;
+}

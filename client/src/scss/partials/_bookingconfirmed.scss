@@ -1,0 +1,15 @@
+header.confirmedPageHero {
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(
+      rgba(10, 0, 0, 0.45), 
+      rgba(40, 0, 0, 0.45)
+    ), url("https://images.pexels.com/photos/247447/pexels-photo-247447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;            
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height:100vh;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: -15px;
+  }
