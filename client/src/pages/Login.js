@@ -45,7 +45,6 @@ export default function Login(props) {
                 </div>
             </header>
             <div className="container">
-
                 <div className="row row__login align-items-center justify-content-center text-center">
                     <div className="col-md-12 column__login">
                         <br />

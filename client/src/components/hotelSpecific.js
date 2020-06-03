@@ -96,7 +96,6 @@ const HotelSpecificDumb = ({ establishmentName, imageUrl, id, description, maxGu
                     <Map
                         googleLong={googleLong}
                         googleLat={googleLat}
-
                     />
                     <br />
                     <div className="border__booking-form">

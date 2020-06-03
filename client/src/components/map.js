@@ -10,7 +10,7 @@ export default function Map({ options, onMount, className, onMountProps, googleL
 
   useEffect(() => {
     const onLoad = () => setMap(new window.google.maps.Map(ref.current, options))
-    
+
     if (!window.google) {
       const script = document.createElement(`script`)
       script.src =
@@ -20,8 +20,7 @@ export default function Map({ options, onMount, className, onMountProps, googleL
       return () => script.removeEventListener(`load`, onLoad)
     } else onLoad()
   }, [options])
-  if (map && typeof onMount === `function`) 
-  {
+  if (map && typeof onMount === `function`) {
     onMount(map, onMountProps);
   }
   return (

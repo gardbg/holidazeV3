@@ -40,5 +40,17 @@ body {
     p {
         font-size: 16px;
     }
+
+    .hr-main {
+        max-width: 3.25rem;
+        border-width: 0.2rem;
+        border-color: $main-blue;
+    }
+    
+    .hr-header {
+        max-width: 3.25rem;
+        border-width: 0.2rem;
+        border-color: $white;
+    }
 }
 
