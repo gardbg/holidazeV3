@@ -1,7 +1,7 @@
 .navbar {
     background-color: $main-blue !important;
     .nav-link {
-        font-family: 'Montserrat', sans-serif;
+        font-family: $secondary_font-family;
         color: $white !important;
                 border: 2px solid transparent;
                 font-size: 1.3em;
@@ -29,7 +29,7 @@
               }
     .navbar--brand {
         color: $white !important;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $secondary_font-family;
           &:hover {
             text-decoration: none;
           }
