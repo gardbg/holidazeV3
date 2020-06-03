@@ -23,10 +23,6 @@ export default function Home() {
     setIsResultsFiltered(true)
   }
 
-  const handleBlur = () => {
-    setFilteredResults([]);
-  }
-
   return (
     <>
       <header className="mainPageHero">
@@ -43,12 +39,11 @@ export default function Home() {
             </div>
           </div>
           <br />
-          <div className="row align-items-center justify-content-center ">
+          <div className="row align-items-center justify-content-center">
             <div className="col-md-12">
               <form className="Searchbar">
                 <input type='text'
                   onChange={handleFiltering}
-                  onBlur={handleBlur}
                   className='form-control input-Searchbar'
                   placeholder={'Rest Easy... ' + searchPhrase}
                 />
