@@ -18,6 +18,7 @@ export default function Home() {
     let filteredHotels = searchHotel.filter((value) => {
       return value.establishmentName.toLowerCase().includes((input.target.value).toLowerCase())
     })
+    if(input.target.value === '') filteredHotels = [];
     setFilteredResults(filteredHotels)
     setSearchPhrase(input.target.value)
     setIsResultsFiltered(true)

@@ -77,6 +77,22 @@
         }
 }
 
+@media only screen and (max-width: 600px) {
+    .column__addEstb input {
+        width: 90% !important;
+        padding: none !important;
+    }
+
+    .input__addEstb {
+        padding: none;
+    }
+
+    .input__selfcat {
+        margin: none;
+    }
+  
+  }
+
 
 
 

@@ -7,7 +7,6 @@ export default function Login(props) {
     const [passwordError, setpasswordError] = useState(false);
 
     const handleChange = (input) => {
-        console.log('event.target', input.target)
         let name = input.target.name;
         let value = input.target.value;
 

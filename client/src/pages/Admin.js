@@ -9,8 +9,9 @@ import enquiries from '../enquiries.json';
 
 
 export default function Admin() {
-
     const [isLoggedIn, setisLoggedIn] = useState(false);
+    const [allMessages, setallMessages] = useState([]);
+    const [allEnquiries, setallEnquiries] = useState([])
 
     const updateLogin = () => {
         setisLoggedIn(true);
@@ -21,13 +22,8 @@ export default function Admin() {
         setisLoggedIn(false);
     }
 
-    const [allMessages, setallMessages] = useState([])
     useEffect(() => {
         setallMessages(messages)
-    }, [])
-
-    const [allEnquiries, setallEnquiries] = useState([])
-    useEffect(() => {
         setallEnquiries(enquiries)
     }, [])
 
