@@ -1,1 +1,19 @@
-[{"establishment":"Sunset Beach","clientName":"Mike Tindall","email":"miket@gmail.com","checkin":"2019-05-03","checkout":"2019-05-05"},{"establishment":"Bob's B&B","clientName":"gard","email":"ostekniff@gmail.com","checkin":"2020-05-14","checkout":"2020-05-20","adults":"2","children":"0","notes":"None"},{"establishment":"Sunsssset Beach","clientName":"andreas","email":"andreas@gmail.com","checkin":"2020-06-11","checkout":"2020-06-14","adults":"2","children":"0","notes":"Gluten-free"}]
+[
+    {
+        "establishment": "Sunset Beach",
+        "clientName": "Mike Tindall",
+        "email": "miket@gmail.com",
+        "checkin": "2019-05-03",
+        "checkout": "2019-05-05"
+    },
+    {
+        "establishment": "Bob's B&B",
+        "clientName": "gard",
+        "email": "ostekniff@gmail.com",
+        "checkin": "2020-05-14",
+        "checkout": "2020-05-20",
+        "adults": "2",
+        "children": "0",
+        "notes": "None"
+    }
+]
