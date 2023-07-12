@@ -12,7 +12,7 @@
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-scroll-up-button": "^1.6.4"
   },
   "scripts": {
@@ -37,6 +37,6 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^9.0.0"
   }
 }
